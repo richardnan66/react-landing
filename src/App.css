@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Rubik Regular';
+  src: local('Rubik Regular'),
+       url('./assets/fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik Medium';
+  src: local('Rubik Medium'),
+       url('./assets/fonts/Rubik-Medium.ttf') format('truetype');
+}
+
+html {
+  font-size: 1vw;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Rubik Medium';
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
